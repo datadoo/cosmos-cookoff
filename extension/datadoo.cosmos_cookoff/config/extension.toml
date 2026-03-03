@@ -1,0 +1,40 @@
+[package]
+title = "Datadoo Cosmos Cookoff"
+version = "0.1.0"
+description = "IsaacSim extension for Cosmos Cookoff event."
+category = "Cosmos" 
+changelog = "docs/CHANGELOG.md"
+icon = "data/icon.png"
+keywords = ["kit", "cosmos", "extension", "python", "usd"]
+preview_image = "data/preview.png"
+readme  = "docs/README.md"
+repository = "https://github.com/datadoo/cosmos-cookoff.git"
+
+
+[dependencies]
+"omni.physics.physx" = {}
+"omni.kit.uiapp" = {}
+"omni.kit.viewport.utility" = {}
+
+[settings]
+
+
+[[python.module]]
+name = "datadoo.cosmos_cookoff"
+
+
+[documentation]
+pages = [
+    "docs/Overview.md",
+    "docs/CHANGELOG.md",
+]
+
+
+[[test]]
+dependencies = [
+    "omni.kit.test",
+    "omni.kit.ui_test"  # UI testing extension
+]
+
+args = [
+]
