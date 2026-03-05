@@ -1,0 +1,13 @@
+user_prompt: |
+  You are a 1/10 scale RC car with soft-compound rubber tires optimized for hard and dry surfaces.
+  You are starting from a point directly in front of two slopes, at the same distance from both:
+  - Left slope
+  - Right slope
+
+  Your task is to analyze and describe the terrain of each slope with the goal of determining which path is more drivable and easier to go through.
+
+  For each path, focus on factors that affect drivability, such as:
+  - surface grip
+  - obstacles or bumps
+  - stability
+
